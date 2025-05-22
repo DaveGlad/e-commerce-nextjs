@@ -10,17 +10,23 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@auth/drizzle-adapter": "^1.9.1",
     "@radix-ui/react-slot": "^1.2.3",
     "@vercel/postgres": "^0.10.0",
+    "bcrypt-ts-edge": "^3.0.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "dotenv": "^16.5.0",
     "drizzle-orm": "^0.43.1",
+    "drizzle-zod": "^0.8.1",
     "lucide-react": "^0.511.0",
     "next": "15.3.2",
+    "next-auth": "^5.0.0-beta.28",
+    "query-string": "^9.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwind-merge": "^3.3.0"
+    "tailwind-merge": "^3.3.0",
+    "zod": "^3.25.20"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
